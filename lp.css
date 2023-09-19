@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Lunasima&family=PT+Serif&family=Roboto+Slab&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Lunasima&family=PT+Serif&family=Roboto+Slab&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Great+Vibes&family=Lunasima&family=PT+Serif&family=Roboto+Slab&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Great+Vibes&family=Lunasima&family=PT+Serif&family=Roboto+Slab&family=Ysabeau+Office:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Great+Vibes&family=Lunasima&family=PT+Serif&family=Roboto+Slab&family=Ysabeau+Office:wght@300&family=Ysabeau+SC:wght@700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    background-image: linear-gradient(rgb(19, 104, 233),rgb(150, 173, 194));
+    width: 100%;
+    height: 85px;
+    display: flex;
+
+}
+
+
+
+#contact{
+    color: #FFF2F2;
+    font-size: 23px;
+    text-decoration: none;
+    margin-top: 36px;
+    font-family: 'PT Serif', serif;
+    margin-left: 60%;
+}
+.skin{
+    font-family: 'Cinzel', serif;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 4px;
+    margin-top: 40px;
+}
+
+.name{
+    font-family: 'Great Vibes', cursive;
+    color: white;
+    font-size: 70px;
+    text-shadow: 5px 3px 6px white;
+    margin-top: 5px;
+}
+
+#logo{
+    height: 50px;
+    width: 50px;
+    filter: drop-shadow(5px 5px 8px white);
+    margin: 15px;
+    
+}
+
+#contact:hover{
+    text-decoration: underline;
+    color: #FFEAD2;
+}
+
+div.container{
+    background-image: url('pexels-merlin-lightpainting-11280358.jpg');
+    width: 100%;
+    height: 45pc;
+    display: flex;
+    align-items: column;
+}
+
+p.desc{
+    margin-right: 40pc;
+    font-family: 'Ysabeau Office', sans-serif;
+    margin-left: 2pc;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-right: 10px;
+    
+}
+
+#about{
+    font-family: 'Ysabeau SC', sans-serif;
+    font-size: 3pc;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.heading{
+    display: flex;
+    align-items: center;
+}
+.ser{
+    width: 30pc;
+    height: auto;
+}
+.content{
+    display: flex;
+    align-items: center;
+}
+
+h2{
+    font-family: 'Ysabeau SC', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    text-decoration: overline underline;
+    margin-top: 25px;
+}
+
+.products{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+img.prod{
+    width: 50vh;
+    height: auto;
+    box-shadow: 5px 4px 10px ;
+}
+div.buy{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px;
+    font-size: 20px;
+    font-family: 'Ysabeau Office', sans-serif;
+}
+
+button{
+    padding: 5px 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+
+p.copyright{
+    text-align: center;
+    background-color: lightgray;
+    font-size: 20px;
+    padding: 5px;
+}
+
